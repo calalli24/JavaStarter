@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.all{
+    background-color: rgb(49, 47, 47);
+    padding: 20rem 0;
+    .exchange{
+        padding: 5rem;
+        margin: auto;
+        background-color: cadetblue;
+        border-radius: 9px;
+        text-align: center;
+        h2{
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        input{
+            border: none;
+            border-bottom: 1px solid #fff;
+            background-color: transparent;
+            color: #fff;
+            margin-bottom: 20px;
+            &::placeholder{
+                color: #fff;
+            }
+        }
+        button{
+            padding:10px 60px;
+            color: #000;
+            font-weight: bold;
+        }
+        p{
+            color: #fff;
+        }
+    }
+}

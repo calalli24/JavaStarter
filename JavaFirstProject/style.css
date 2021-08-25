@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.all {
+  background-color: #312f2f;
+  padding: 20rem 0;
+}
+
+.all .exchange {
+  padding: 5rem;
+  margin: auto;
+  background-color: cadetblue;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.all .exchange h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.all .exchange input {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.all .exchange input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.all .exchange input:-ms-input-placeholder {
+  color: #fff;
+}
+
+.all .exchange input::-ms-input-placeholder {
+  color: #fff;
+}
+
+.all .exchange input::placeholder {
+  color: #fff;
+}
+
+.all .exchange button {
+  padding: 10px 60px;
+  color: #000;
+  font-weight: bold;
+}
+
+.all .exchange p {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
